@@ -1,5 +1,5 @@
 # IP-Address-Security-Check-Application
-IP Address Security Check Application
+
 Proje Açıklaması
 Bu uygulama, IP adreslerini güvenlik açısından kontrol etmek için geliştirilmiştir. Uygulama, IP adreslerinin şüpheli aktiviteler içerip içermediğini tespit eder ve kullanıcıya güvenli veya tehlikeli olup olmadığı hakkında bilgi verir. IP adreslerinin kara listeye alınıp alınmadığını kontrol etmek için bir API kullanarak tehdit analizi yapar.
 
