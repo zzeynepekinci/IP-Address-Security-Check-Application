@@ -1,19 +1,31 @@
+
+
 # IP-Address-Security-Check-Application
 
-Proje Açıklaması
+## Proje Açıklaması  
 Bu uygulama, IP adreslerini güvenlik açısından kontrol etmek için geliştirilmiştir. Uygulama, IP adreslerinin şüpheli aktiviteler içerip içermediğini tespit eder ve kullanıcıya güvenli veya tehlikeli olup olmadığı hakkında bilgi verir. IP adreslerinin kara listeye alınıp alınmadığını kontrol etmek için bir API kullanarak tehdit analizi yapar.
 
-Özellikler
-IP adreslerinin güvenliğini kontrol etme.
-IP adreslerinin şüpheli aktiviteler içerip içermediğini belirleme.
-Kötü amaçlı IP’ler hakkında bilgi edinme.
-Kullanıcı dostu bir arayüz ile güvenlik değerlendirmeleri sağlama.
-Teknolojiler
-Python – Uygulama temel programlama dili.
-Flask – Web framework olarak kullanıldı.
-Requests – HTTP isteklerini yapmak için.
-AbuseIPDB API – IP güvenlik verilerini almak için kullanıldı.
-HTML/CSS – Basit bir kullanıcı arayüzü için.
+## Özellikler  
+- IP adreslerinin güvenliğini kontrol etme  
+- IP adreslerinin şüpheli aktiviteler içerip içermediğini belirleme  
+- Kötü amaçlı IP'ler hakkında bilgi edinme  
+- Kullanıcı dostu bir arayüz ile güvenlik değerlendirmesi sağlama  
+
+## Kullanılan Teknolojiler  
+- **Python** – Uygulamanın temel programlama dili  
+- **Flask** – Web framework  
+- **Requests** – HTTP isteklerini yapmak için kullanıldı  
+- **AbuseIPDB API** – IP güvenlik verilerini almak için kullanıldı  
+- **HTML/CSS** – Basit bir kullanıcı arayüzü için kullanıldı  
+
+## Kurulum  
+
+Öncelikle, **Python 3.x** sürümünün sisteminizde yüklü olduğundan emin olun. Ardından aşağıdaki adımları takip edin:
+
+1. Repository’yi klonlayın:  
+   ```bash
+   git clone https://github.com/username/repository-name.git
+
 Kurulum
 Python 3.x yüklü olduğundan emin olun.
 Bu repository'yi bilgisayarınıza klonlayın:
