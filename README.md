@@ -1,5 +1,3 @@
-
-
 # IP-Address-Security-Check-Application
 
 ## Proje Açıklaması  
@@ -25,26 +23,21 @@ Bu uygulama, IP adreslerini güvenlik açısından kontrol etmek için geliştir
 1. Repository’yi klonlayın:  
    ```bash
    git clone https://github.com/username/repository-name.git
+   ```
 
-Kurulum
-Python 3.x yüklü olduğundan emin olun.
-Bu repository'yi bilgisayarınıza klonlayın:
-bash
-Kopyala
-Düzenle
-git clone https://github.com/username/repository-name.git
-Gereksinimleri yüklemek için:
-bash
-Kopyala
-Düzenle
-pip install -r requirements.txt
-Flask uygulamasını başlatın:
-bash
-Kopyala
-Düzenle
-python app.py
-Tarayıcıda http://127.0.0.1:5000 adresine giderek uygulamayı çalıştırabilirsiniz.
-Kullanım
-Uygulama çalıştırıldığında, ana sayfada bir IP adresi girmeniz için bir alan görünecektir.
-Girdiğiniz IP adresinin güvenli olup olmadığı hakkında anında geri bildirim alırsınız.
-Eğer IP adresi kötü amaçlı aktiviteler içeriyorsa, uygulama size uyarı verecektir.
+2. Gerekli bağımlılıkları yükleyin:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Flask uygulamasını başlatın:  
+   ```bash
+   python app.py
+   ```
+
+4. Tarayıcınızda aşağıdaki adrese giderek uygulamayı çalıştırabilirsiniz:  
+   [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+## Kullanım  
+Uygulama çalıştırıldığında, ana sayfada bir IP adresi girmeniz için bir alan görünecektir. Girdiğiniz IP adresinin güvenli olup olmadığı hakkında anında geri bildirim alırsınız. Eğer IP adresi kötü amaçlı aktiviteler içeriyorsa, uygulama size uyarı verecektir.  
+
